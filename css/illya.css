@@ -1,0 +1,11 @@
+section.content-illya{
+	display:flex;
+	height: auto;
+	opacity: 0;
+
+}
+
+section.content-illya.element-show {
+   opacity:1;
+   transition: opacity 3s;
+}

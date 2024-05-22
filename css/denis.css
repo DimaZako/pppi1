@@ -1,0 +1,11 @@
+section.content-denis{
+	display:flex;
+	height: auto;
+	opacity: 0;
+
+}
+
+section.content-denis.element-show {
+   opacity:1;
+   transition: opacity 3s;
+}

@@ -1,0 +1,11 @@
+section.content-dima{
+	display:flex;
+	height: auto;
+	opacity: 0;
+
+}
+
+section.content-dima.element-show {
+   opacity:1;
+   transition: opacity 3s;
+}
